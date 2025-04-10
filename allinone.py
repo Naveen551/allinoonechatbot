@@ -25,7 +25,7 @@ if "file_uploaded" not in st.session_state:
 
 # File Uploader (PDF and Excel only)
 uploaded_file = st.file_uploader(
-    "Upload PDF or Excel file",
+    "Upload any file with the following extensions",
     type=["pdf", "xlsx", "jpeg", "png", "jpg", "mp3", "mp4", "wav"],
     accept_multiple_files=True,
 )
